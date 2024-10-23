@@ -27,7 +27,7 @@ class WaterIntakeCalculator
     intake
   end
 
-  def glass_of_water
+  def glasses_of_water
     (calculate_total_intake / 8).to_i
   end 
 end
@@ -51,8 +51,15 @@ It will take into consideration:
  puts "Please enter the amount of minutes exercised today:"
  minutes_exercised = gets.chomp.to_f
 
- puts "Now let's take into consideration the weather. WHat is the current temperature?:"
+ puts "Now let's take into consideration the weather. What is the current temperature?:"
  temperature = gets.chomp.to_i
 
- 
+ calculator = WaterIntakeCalculator.new(name, weight, minutes_exercised, temperature, pregnant)
+
+ daily_intake = calculator.calculate_total_intake
+ glasses_of_water = calculator.glasses_of_water
+
+ puts "Thank you #{name}. Your water intake for today is #{daily_intake} ounces. That equates to around #{glasses_of_water} glasses of water. Stay hydrated, my friend!"
 end
+
+home
