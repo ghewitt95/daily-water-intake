@@ -32,6 +32,27 @@ class WaterIntakeCalculator
   end 
 end
 
+def home
+  puts "Enter your name:"
+  name = gets.chomp
 
+  puts "Hello #{name},
+This is a water intake program that will estimate the amount of water you'll have to drink today. 
+It will take into consideration:
+ - Weight
+ - Activity Level
+ - Outdoor Temperature
+ Let's get started! Are you currently pregnant or breastfeeding? (yes/no)"
+ pregnant = gets.chomp
 
+ puts "Next, enter your weight (in pounds):"
+ weight = gets.chomp.to_f
+
+ puts "Please enter the amount of minutes exercised today:"
+ minutes_exercised = gets.chomp.to_f
+
+ puts "Now let's take into consideration the weather. WHat is the current temperature?:"
+ temperature = gets.chomp.to_i
+
+ 
 end
