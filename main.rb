@@ -9,6 +9,29 @@ class WaterIntakeCalculator
     @pregnant = pregnant
   end
 
-  
-  
+  def calculate_weight_intake
+    @weight * 0.5
+  end
+
+  def calculate_exercise_intake
+    (@minutes_exercised / 30.0) * 12
+  end
+
+  def calculate_total_intake
+    intake = calculate_weight_intake + calculate_exercise_intake
+
+    intake += 32 if @pregnant.downcase == 'yes'
+
+    intake += 16 if @temperature >= 70
+
+    intake
+  end
+
+  def glass_of_water
+    (calculate_total_intake / 8).to_i
+  end 
+end
+
+
+
 end
