@@ -62,4 +62,4 @@ It will take into consideration:
  puts "Thank you #{name}. Your water intake for today is #{daily_intake} ounces. That equates to around #{glasses_of_water} glasses of water. Stay hydrated, my friend!"
 end
 
-home
+puts home
