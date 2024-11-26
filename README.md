@@ -1,11 +1,17 @@
-# Daily Water Intake App
+# Daily Water Intake Calculator
 
-- Version `1.1`
+- Version `1.0`
 
-This app takes into account if the user is pregnant or breastfeeding, their weight and the outdoor temperature to tell you how many ounces of water you should be drinking a day.
+## Description
 
-1) To start the program type `ruby daily-water-intake.rb` into the terminal.
+The Daily Water Intake Calculator helps users estimate their daily water intake based on their weight, activity level, current temperature, and other factors such as prenancy or breastfeeding. The app guides users through calculation process step by step and provides results in both total ounces and glasses of water. (8 ounces per glass)
 
-2) Type your name and answer the question to the best of your knowledge.
+## Instructions
 
-3) At the end of the program, the amount of water wil be shown in ounces and automatically translated into glasses.
+- To start the program type `ruby daily-water-intake.rb` into the terminal.
+- Follow on screen instructions.
+- Type 'exit' to end the program at anytime.
+
+
+
+---
