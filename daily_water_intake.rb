@@ -45,19 +45,19 @@ It will take into consideration:
  - Outdoor Temperature
  Let's get started! Are you currently pregnant or breastfeeding? (yes/no)"
  pregnant = gets.chomp
- return if pregnant.downcase == 'exit'
+ return if pregnant == 'exit'
 
  puts "Next, enter your weight (in pounds):"
  weight = gets.chomp.to_f
- return if weight.downcase == 'exit'
+ return if weight == 'exit'
 
  puts "Please enter the amount of minutes exercised today:"
  minutes_exercised = gets.chomp.to_f
- return if minutes_exercised.downcase == 'exit'
+ return if minutes_exercised == 'exit'
 
  puts "Now let's take into consideration the weather. What is the current temperature?:"
  temperature = gets.chomp.to_i
- return if temperature.downcase == 'exit'
+ return if temperature == 'exit'
 
  calculator = WaterIntakeCalculator.new(name, weight, minutes_exercised, temperature, pregnant)
 
