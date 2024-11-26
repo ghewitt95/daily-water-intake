@@ -11,7 +11,4 @@ The Daily Water Intake Calculator helps users estimate their daily water intake 
 - To start the program type `ruby daily-water-intake.rb` into the terminal.
 - Follow on screen instructions.
 - Type 'exit' to end the program at anytime.
-
-
-
 ---
