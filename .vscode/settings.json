@@ -69,5 +69,10 @@
   },
   "files.associations": {
     "*.html.erb": "erb"
+  },
+  "workbench.colorCustomizations": {
+    "statusBar.noFolderBackground": "#73cfa8",
+    "statusBar.debuggingBackground": "#73cfa8",
+    "statusBar.debuggingForeground": "#ffffff"
   }
 }

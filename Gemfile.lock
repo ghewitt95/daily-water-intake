@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    dotenv (3.1.6)
     minitest (5.25.2)
 
 PLATFORMS
@@ -8,6 +9,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  dotenv
   minitest
 
 BUNDLED WITH
