@@ -1,4 +1,6 @@
 require 'minitest/autorun'
+require "http"
+require"dotenv/load"
 require './daily_water_intake'
 
 class TestWaterIntakeCalculator  < Minitest::Test

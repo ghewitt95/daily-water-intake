@@ -1,7 +1,8 @@
+#Gemfiles
 require "http"
-require "json"
 require"dotenv/load"
 
+#Program
 class WaterIntakeCalculator
   attr_accessor :name, :weight, :minutes_exercised, :temperature, :pregnant
 
