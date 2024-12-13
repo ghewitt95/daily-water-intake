@@ -1,3 +1,7 @@
+require "http"
+require "json"
+require"dotenv/load"
+
 class WaterIntakeCalculator
   attr_accessor :name, :weight, :minutes_exercised, :temperature, :pregnant
 
