@@ -37,8 +37,14 @@ class WaterIntakeCalculator
   end 
 end
 
+#Location
+
+
+
+#Weather
+
 def home
-  puts "Enter your name (or type 'exit' to quit)"
+  puts "Enter your name (type 'exit' to quit)"
   name = gets.chomp
   return if name.downcase == 'exit'
 
