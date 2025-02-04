@@ -1,6 +1,4 @@
 #Gemfiles
-require "http"
-require"dotenv/load"
 
 #Program
 class WaterIntakeCalculator
@@ -37,11 +35,6 @@ class WaterIntakeCalculator
   end 
 end
 
-#Location
-
-
-
-#Weather
 
 def home
   puts "Enter your name (type 'exit' to quit)"
